@@ -1,0 +1,13 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://mnyrop.github.io/peutinger-map-static/collection/top.json",
+  "@type": "sc:Collection",
+  "label": "top",
+  "manifests": [
+    {
+      "@id": "https://mnyrop.github.io/peutinger-map-static/base-jpg/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "base-jpg"
+    }
+  ]
+}

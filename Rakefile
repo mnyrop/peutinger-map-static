@@ -31,11 +31,14 @@ def add_image(file, is_doc = false)
 end
 
 task :build do 
-    @opts = {}
-    @opts[:image_directory_name] = "img"
-    @opts[:output_dir] = "./build"
-    @opts[:variants] = { "reference" => 600, "access" => 1200}
-    @opts[:upload_to_s3] = false
+    @opts = {
+        image_directory_name: "img",
+        output_dir: "./build",
+        upload_to_s3: false,
+        base_url: 'https://mnyrop.github.io/peutinger-map-static',
+        verbose: true
+    }
+ 
 
     @data   = []
     @source = './source'

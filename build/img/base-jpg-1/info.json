@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/image/2/context.json",
-  "@id": "http%3A%2F%2F0.0.0.0%2Fimg%2Fbase-jpg-1",
+  "@id": "http://localhost:4000/img/base-jpg-1",
   "protocol": "http://iiif.io/api/image",
   "width": 31331,
   "height": 2281,
@@ -12,14 +12,6 @@
     {
       "width": 250,
       "height": 18
-    },
-    {
-      "width": 600,
-      "height": 44
-    },
-    {
-      "width": 1200,
-      "height": 87
     }
   ],
   "profile": [
