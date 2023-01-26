@@ -1,0 +1,47 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://mnyrop.github.io/peutinger-map-static/base/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Peutinger Map Static",
+  "attribution": "TO DO",
+  "description": "TO DO",
+  "thumbnail": "https://mnyrop.github.io/peutinger-map-static/img/base-1/full/250,/0/default.jpg",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@id": "https://mnyrop.github.io/peutinger-map-static/base/sequence/default.json",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "https://mnyrop.github.io/peutinger-map-static/base/canvas/front.json",
+          "label": "front",
+          "width": 31331,
+          "height": 2281,
+          "thumbnail": "https://mnyrop.github.io/peutinger-map-static/img/base-1/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://mnyrop.github.io/peutinger-map-static/base/annotation/front.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://mnyrop.github.io/peutinger-map-static/img/base-1/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://mnyrop.github.io/peutinger-map-static/img/base-1",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 31331,
+                "height": 2281
+              },
+              "on": "https://mnyrop.github.io/peutinger-map-static/base/canvas/front.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

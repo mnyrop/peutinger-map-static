@@ -5,9 +5,9 @@
   "label": "top",
   "manifests": [
     {
-      "@id": "https://mnyrop.github.io/peutinger-map-static/base-jpg/manifest.json",
+      "@id": "https://mnyrop.github.io/peutinger-map-static/base/manifest.json",
       "@type": "sc:Manifest",
-      "label": "base-jpg"
+      "label": "Peutinger Map Static"
     }
   ]
 }
