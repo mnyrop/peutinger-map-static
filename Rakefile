@@ -33,7 +33,7 @@ end
 task :build do 
     @opts = {
         image_directory_name: "img",
-        output_dir: "./build",
+        output_dir: "./docs",
         upload_to_s3: false,
         base_url: 'https://mnyrop.github.io/peutinger-map-static',
         verbose: true
