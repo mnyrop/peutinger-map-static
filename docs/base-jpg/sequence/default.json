@@ -8,19 +8,19 @@
       "label": "front",
       "width": 31331,
       "height": 2281,
-      "thumbnail": "http://localhost:4000/img/base-jpg-1/full/250,/0/default.jpg",
+      "thumbnail": "https://mnyrop.github.io/peutinger-map-static/img/base-jpg-1/full/250,/0/default.jpg",
       "images": [
         {
           "@type": "oa:Annotation",
           "@id": "https://mnyrop.github.io/peutinger-map-static/base-jpg/annotation/front.json",
           "motivation": "sc:painting",
           "resource": {
-            "@id": "http://localhost:4000/img/base-jpg-1/full/full/0/default.jpg",
+            "@id": "https://mnyrop.github.io/peutinger-map-static/img/base-jpg-1/full/full/0/default.jpg",
             "@type": "dcterms:Image",
             "format": "image/jpeg",
             "service": {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "http://localhost:4000/img/base-jpg-1",
+              "@id": "https://mnyrop.github.io/peutinger-map-static/img/base-jpg-1",
               "profile": "http://iiif.io/api/image/2/level0.json"
             },
             "width": 31331,
