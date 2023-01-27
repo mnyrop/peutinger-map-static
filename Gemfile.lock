@@ -1,5 +1,6 @@
-PATH
-  remote: iiif_s3
+GIT
+  remote: https://github.com/mnyrop/iiif_s3.git
+  revision: ec9e5e0a6dbdb2f23848fbe52c811b8fa9ef008d
   specs:
     iiif_s3 (0.1.0)
       aws-sdk (~> 3)
@@ -9,7 +10,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     aws-eventstream (1.2.0)
-    aws-partitions (1.700.0)
+    aws-partitions (1.701.0)
     aws-sdk (3.1.0)
       aws-sdk-resources (~> 3)
     aws-sdk-accessanalyzer (1.33.0)
@@ -379,7 +380,7 @@ GEM
     aws-sdk-emrserverless (1.5.0)
       aws-sdk-core (~> 3, >= 3.165.0)
       aws-sigv4 (~> 1.1)
-    aws-sdk-eventbridge (1.41.0)
+    aws-sdk-eventbridge (1.42.0)
       aws-sdk-core (~> 3, >= 3.165.0)
       aws-sigv4 (~> 1.1)
     aws-sdk-finspace (1.13.0)
@@ -493,7 +494,7 @@ GEM
     aws-sdk-iotfleethub (1.13.0)
       aws-sdk-core (~> 3, >= 3.165.0)
       aws-sigv4 (~> 1.1)
-    aws-sdk-iotfleetwise (1.6.0)
+    aws-sdk-iotfleetwise (1.7.0)
       aws-sdk-core (~> 3, >= 3.165.0)
       aws-sigv4 (~> 1.1)
     aws-sdk-iotjobsdataplane (1.38.0)
@@ -1185,7 +1186,7 @@ GEM
     aws-sdk-route53resolver (1.39.0)
       aws-sdk-core (~> 3, >= 3.165.0)
       aws-sigv4 (~> 1.1)
-    aws-sdk-s3 (1.118.0)
+    aws-sdk-s3 (1.119.0)
       aws-sdk-core (~> 3, >= 3.165.0)
       aws-sdk-kms (~> 1)
       aws-sigv4 (~> 1.4)

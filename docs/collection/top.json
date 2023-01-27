@@ -1,11 +1,11 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://mnyrop.github.io/peutinger-map-static/collection/top.json",
+  "@id": "https://nyu-dss.github.io/peutinger-map-static/collection/top.json",
   "@type": "sc:Collection",
   "label": "top",
   "manifests": [
     {
-      "@id": "https://mnyrop.github.io/peutinger-map-static/base/manifest.json",
+      "@id": "https://nyu-dss.github.io/peutinger-map-static/base/manifest.json",
       "@type": "sc:Manifest",
       "label": "Peutinger Map Static"
     }

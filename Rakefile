@@ -2,7 +2,7 @@ require 'dotenv/load'
 require 'iiif_s3'
 require 'yaml'
 
-TARGET_URL = 'https://mnyrop.github.io/peutinger-map-static'
+TARGET_URL = 'https://nyu-dss.github.io/peutinger-map-static'
 
 task :build do 
     build_opts = {
